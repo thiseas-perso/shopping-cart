@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className={styles.navbar}>
       <NavLink
-        to={"/"}
+        to={"/shopping-cart"}
         className={({ isActive }) =>
           isActive ? `${styles.active}` : `${styles.notactive}`
         }
