@@ -7,7 +7,7 @@
    color: #e0fbfc;
 }
 
-nav{
+.navbar{
    display: flex;
    justify-content: space-around;
    background-color: #293241;
@@ -15,7 +15,7 @@ nav{
    align-items: center;
 }
 
-nav a {
+.navbar a {
    font-size: 2rem;
    text-decoration: none;
    padding: 1rem;
