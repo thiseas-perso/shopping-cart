@@ -17,3 +17,12 @@
    border-radius: 1rem;
    padding: 0.5rem 1rem;
 }
+
+.cartbtnctn button:hover{
+   cursor: pointer;
+   background-color: darkgray;
+}
+
+.cartbtnctn button:active{
+   transform: translateY(5%);
+}
