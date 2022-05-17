@@ -1,0 +1,22 @@
+.card{
+   padding: 1rem;
+   border: 1px solid black;
+   border-radius: 1rem;
+   
+}
+
+.card button{
+   border: none;
+   border-radius: 1rem;
+   padding: 0.5rem 1rem;
+   margin: 0.5rem;
+}
+
+.card button:hover{
+   cursor: pointer;
+   background-color: darkgray;
+}
+
+.card button:active{
+   transform: translateY(5%);
+}
