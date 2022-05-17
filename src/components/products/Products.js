@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 
 import styles from "./Products.module.css";
 import ProductCard from "../productcard";
+import Cart from "../cart";
 
 const Products = () => {
   const products = useSelector((state) => state.products.products);
@@ -17,7 +18,7 @@ const Products = () => {
           ))}
         </div>
       )}
-      {cartVisible && <p>cart</p>}
+      {cartVisible && <Cart />}
     </>
   );
 };
