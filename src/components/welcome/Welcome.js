@@ -17,8 +17,10 @@ const Welcome = () => {
       </div>
       <div>
         <p>
-          A simple project to practice
-          <br /> React and React Router
+          Practice using
+          <br />
+          React.js &
+          <br /> React Router
         </p>
       </div>
       <div>
