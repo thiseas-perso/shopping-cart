@@ -8,7 +8,15 @@ export const cartSlice = createSlice({
   },
   reducers: {
     addToCart(state, action) {
-      state.products.push(action.payload);
+      const { id, title, quantity } = action.payload;
+      const existingProduct = state.products.find(
+        (element) => element.id === id
+      );
+      if (existingProduct) {
+        existingProduct.quantity += quantity;
+      } else {
+        state.products.push(action.payload);
+      }
     },
     toggleVisible(state) {
       state.cartVisible = !state.cartVisible;

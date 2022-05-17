@@ -6,6 +6,8 @@ import { toggleVisible } from "../../features/cart/cartSlice";
 
 const CartButton = () => {
   const cartVisible = useSelector((state) => state.cart.cartVisible);
+  const cartProducts = useSelector((state) => state.cart.products);
+  const totalItems = cartProducts.reduce((acc, next) => acc + next.quantity, 0);
   const dispatch = useDispatch();
   const clickHandler = () => {
     dispatch(toggleVisible());
@@ -15,7 +17,7 @@ const CartButton = () => {
       {!cartVisible && (
         <div className={styles.cartbtnctn}>
           <p>
-            Your cart: <span></span>
+            Your cart: <span>{totalItems}</span>
           </p>
           <button onClick={clickHandler}>View cart</button>
         </div>
