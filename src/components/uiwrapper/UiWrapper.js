@@ -7,7 +7,7 @@ const UiWrapper = ({ children }) => {
   return (
     <div className={styles["ui-wrap"]}>
       <NavBar />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
     </div>
   );

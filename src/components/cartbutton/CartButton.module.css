@@ -1,0 +1,28 @@
+.cartbtnctn{
+   margin-bottom: 5rem;
+   background-color: #3d5a80;
+   color: #e0fbfc;
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cartbtnctn p{
+   margin: 0;
+}
+   
+.cartbtnctn button{
+   border: none;
+   border-radius: 1rem;
+   padding: 0.5rem 1rem;
+}
+
+.cartbtnctn button:hover{
+   cursor: pointer;
+   background-color: darkgray;
+}
+
+.cartbtnctn button:active{
+   transform: translateY(5%);
+}
