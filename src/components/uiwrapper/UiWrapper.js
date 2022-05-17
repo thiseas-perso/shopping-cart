@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../footer";
 import NavBar from "../navBar";
 
 const UiWrapper = ({ children }) => {
@@ -6,7 +7,7 @@ const UiWrapper = ({ children }) => {
     <>
       <NavBar />
       <main>{children}</main>
-      <p>footer here</p>
+      <Footer />
     </>
   );
 };
