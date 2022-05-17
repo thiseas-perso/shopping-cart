@@ -1,0 +1,12 @@
+.ui-wrap{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+   height: 100%;
+}
+
+.main{
+   align-self: center;
+   height: 100%;
+}

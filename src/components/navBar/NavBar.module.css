@@ -1,0 +1,27 @@
+.active{
+   color: #ee6c4d;
+   text-decoration: underline;
+}
+
+.notactive{
+   color: #e0fbfc;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   background-color: #293241;
+   height: 5rem;
+   align-items: center;
+}
+
+.navbar a {
+   font-size: 2rem;
+   text-decoration: none;
+   padding: 1rem;
+}
+
+.notactive:hover{
+   text-decoration: underline;
+}
+
