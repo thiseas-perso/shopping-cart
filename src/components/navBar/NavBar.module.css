@@ -11,12 +11,12 @@
    display: flex;
    justify-content: space-around;
    background-color: #293241;
-   height: 5rem;
+   height: 4rem;
    align-items: center;
 }
 
 .navbar a {
-   font-size: 2rem;
+   font-size: 1.5rem;
    text-decoration: none;
    padding: 1rem;
 }
