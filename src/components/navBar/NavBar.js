@@ -13,7 +13,7 @@ const NavBar = () => {
         Home
       </NavLink>
       <NavLink
-        to={"/shop"}
+        to={"/shopping-cart/shop"}
         className={({ isActive }) =>
           isActive ? ` ${styles.active}` : `${styles.notactive}`
         }
@@ -21,7 +21,7 @@ const NavBar = () => {
         Shop
       </NavLink>
       <NavLink
-        to={"/contact"}
+        to={"/shopping-cart/contact"}
         className={({ isActive }) =>
           isActive ? `${styles.active}` : `${styles.notactive}`
         }

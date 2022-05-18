@@ -15,8 +15,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/shopping-cart" element={<App />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/shopping-cart/shop" element={<Shop />} />
+        <Route path="/shopping-cart/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </Provider>
